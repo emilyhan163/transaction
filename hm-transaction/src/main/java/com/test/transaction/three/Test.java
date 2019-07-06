@@ -21,8 +21,9 @@ public class Test {
 //        D01MService d01MService = applicationContext.getBean(D01MService.class);
 //        d01MService.addServiceMANDATORY();
 
-        applicationContext = new ClassPathXmlApplicationContext("spring-beans3.xml");
-        D31MService d004MService = applicationContext.getBean(D31MService.class);
-        d004MService.addService();
+//这个没写
+        //applicationContext = new ClassPathXmlApplicationContext("spring-beans3.xml");
+        //D31MService d004MService = applicationContext.getBean(D31MService.class);
+        //d004MService.addService();
     }
 }
