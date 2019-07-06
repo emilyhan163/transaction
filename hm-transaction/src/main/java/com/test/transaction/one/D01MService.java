@@ -5,6 +5,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 /**
@@ -42,7 +43,7 @@ public class D01MService {
 
     @Transactional
     public void addServiceUU2() {
-        log.info("d02MService........");
+        log.info("d03MService........");
         //TODO <property name="globalRollbackOnParticipationFailure" value="false" />
         // 这个配置在的话，下面的try catch捕获异常了，addServiceMANDATORY才不会回滚
         //没有这个配置的话，异常捕获了但是还是会回滚 “Transaction rolled back because it has been marked as rollback-only”
