@@ -3,7 +3,7 @@ package com.test.transaction.in;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
- * @author 韩美娟
+ * @author hmj
  * @date 2019/6/19
  */
 public class TestInterface {

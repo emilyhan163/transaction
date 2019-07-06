@@ -7,7 +7,7 @@ import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 /**
- * @author 韩美娟
+ * @author hmj
  * @date 2019/6/19
  */
 @Service
