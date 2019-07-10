@@ -16,7 +16,7 @@ public class D22MService {
 
     //    @Transactional
     public void addUser() {
-        jdbcTemplate.update("update mogoroomdb.tele_calllog SET remark='好样子' where id=7968325");
+        jdbcTemplate.update("UPDATE user_info SET userName='好样子' WHERE id=2");
         throw new RuntimeException("oo");
     }
 }
